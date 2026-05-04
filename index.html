@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafał Flisiak - Budowa Hal Magazynowych | Konstrukcje Stalowe</title>
+    <meta name="description" content="Rafał Flisiak - Profesjonalna budowa hal magazynowych i konstrukcji stalowych. Kompleksowa realizacja od konsultacji po wykończenie.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Nawigacja -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <span class="logo-text">RAFAŁ<span class="logo-accent">FLISIAK</span></span>
+            </div>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Strona Główna</a></li>
+                <li><a href="#services" class="nav-link">Usługi</a></li>
+                <li><a href="#about" class="nav-link">O Nas</a></li>
+                <li><a href="#portfolio" class="nav-link">Realizacje</a></li>
+                <li><a href="#contact" class="nav-link btn-primary-nav">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sekcja Hero -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+            <img src="hero-image.jpg" 
+                 alt="Budowa hali magazynowej - konstrukcja stalowa" 
+                 class="hero-image">
+        </div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="hero-title-line">Rafał Flisiak</span>
+                    <span class="hero-title-line">Budowa Hal</span>
+                    <span class="hero-title-line hero-title-accent">Magazynowych</span>
+                </h1>
+                <p class="hero-subtitle">Kompleksowa realizacja konstrukcji stalowych - od konsultacji i wyceny, przez montaż konstrukcji, po pełne wykończenie obiektu.</p>
+                <div class="hero-buttons">
+                    <a href="tel:+48123456789" class="btn btn-primary">Zadzwoń: +48 123 456 789</a>
+                    <a href="#portfolio" class="btn btn-secondary">Zobacz Realizacje</a>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-card">
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label">Lat Doświadczenia</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Zadowolonych Klientów</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Wsparcie Techniczne</div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Przewiń w dół</span>
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path d="M10 3V17M10 17L16 11M10 17L4 11" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Sekcja Usługi -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Co Oferujemy</span>
+                <h2 class="section-title">Nasze Usługi</h2>
+                <p class="section-description">Kompleksowa obsługa każdego etapu inwestycji - od koncepcji po oddanie obiektu do użytkowania</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path d="M10 20L24 10L38 20V38H10V20Z" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <rect x="18" y="26" width="12" height="12" stroke="currentColor" stroke-width="2" fill="none"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Konsultacja i Wycena</h3>
+                    <p class="service-description">Profesjonalna konsultacja techniczna i szczegółowa wycena projektu. Analiza terenu, dobór optymalnych rozwiązań konstrukcyjnych oraz przygotowanie oferty dostosowanej do Twoich potrzeb.</p>
+                    <ul class="service-features">
+                        <li>Wizyta na placu budowy</li>
+                        <li>Analiza wymagań klienta</li>
+                        <li>Dobór rozwiązań technicznych</li>
+                        <li>Szczegółowa wycena kosztów</li>
+                    </ul>
+                </div>
+
+                <div class="service-card featured">
+                    <div class="featured-badge">Specjalizacja</div>
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect x="6" y="10" width="36" height="28" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <path d="M6 18L24 28L42 18" stroke="currentColor" stroke-width="2"/>
+                            <path d="M24 28V38" stroke="currentColor" stroke-width="2"/>
+                            <line x1="12" y1="24" x2="12" y2="32" stroke="currentColor" stroke-width="2"/>
+                            <line x1="36" y1="24" x2="36" y2="32" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Montaż Konstrukcji</h3>
+                    <p class="service-description">Fachowy montaż konstrukcji stalowych hal magazynowych i przemysłowych. Realizacja z wykorzystaniem nowoczesnego sprzętu i doświadczonego zespołu monterów.</p>
+                    <ul class="service-features">
+                        <li>Konstrukcje stalowe</li>
+                        <li>Montaż elementów prefabrykowanych</li>
+                        <li>Pokrycia dachowe i elewacyjne</li>
+                        <li>Terminowa realizacja</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect x="8" y="12" width="32" height="24" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <path d="M8 22H40M24 12V36" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="16" cy="28" r="2" fill="currentColor"/>
+                            <circle cx="32" cy="28" r="2" fill="currentColor"/>
+                            <path d="M24 28H24.01" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Wykończenie</h3>
+                    <p class="service-description">Kompleksowe wykończenie hali pod klucz. Instalacje elektryczne, wodno-kanalizacyjne, bramy przemysłowe, posadzki przemysłowe oraz wszystkie niezbędne prace wykończeniowe.</p>
+                    <ul class="service-features">
+                        <li>Instalacje elektryczne</li>
+                        <li>Instalacje sanitarne</li>
+                        <li>Bramy i doki załadunkowe</li>
+                        <li>Posadzki przemysłowe</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sekcja O Nas -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <span class="section-label">Kim Jestem</span>
+                    <h2 class="section-title">Rafał Flisiak - Doświadczenie i Profesjonalizm</h2>
+                    <div class="about-text">
+                        <p>Jestem <strong>Rafał Flisiak</strong> i specjalizuję się w budowie <strong>hal magazynowych oraz konstrukcji stalowych</strong>. Od wielu lat realizuję projekty dla klientów z różnych branż, zapewniając kompleksową obsługę na każdym etapie inwestycji.</p>
+                        
+                        <p>Moją misją jest dostarczanie <strong>wysokiej jakości konstrukcji stalowych</strong>, które spełniają najwyższe standardy bezpieczeństwa i funkcjonalności. Każdy projekt traktuję indywidualnie, dostosowując rozwiązania do specyficznych potrzeb klienta.</p>
+                        
+                        <p>Oferuję pełen zakres usług - od konsultacji i wyceny, przez profesjonalny montaż konstrukcji stalowych, aż po kompleksowe wykończenie obiektu. Gwarantuję terminową realizację i wysoką jakość wykonania.</p>
+                    </div>
+
+                    <div class="about-advantages">
+                        <div class="advantage-item">
+                            <div class="advantage-icon">✓</div>
+                            <div class="advantage-text">
+                                <h4>Kompleksowa Realizacja</h4>
+                                <p>Od wyceny po wykończenie pod klucz</p>
+                            </div>
+                        </div>
+                        <div class="advantage-item">
+                            <div class="advantage-icon">✓</div>
+                            <div class="advantage-text">
+                                <h4>Terminowość</h4>
+                                <p>Dotrzymuję ustalonych terminów realizacji</p>
+                            </div>
+                        </div>
+                        <div class="advantage-item">
+                            <div class="advantage-icon">✓</div>
+                            <div class="advantage-text">
+                                <h4>Jakość Wykonania</h4>
+                                <p>Certyfikowane materiały i fachowy montaż</p>
+                            </div>
+                        </div>
+                        <div class="advantage-item">
+                            <div class="advantage-icon">✓</div>
+                            <div class="advantage-text">
+                                <h4>Indywidualne Podejście</h4>
+                                <p>Każdy projekt dostosowany do potrzeb klienta</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-image">
+                    <div class="about-image-wrapper">
+                        <!-- Tutaj wstaw zdjęcie zespołu lub realizacji -->
+                        <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=800&q=80" 
+                             alt="Nasz zespół" 
+                             class="about-img">
+                        <div class="about-image-accent"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sekcja Proces -->
+    <section class="process">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Jak Pracujemy</span>
+                <h2 class="section-title">Etapy Realizacji</h2>
+                <p class="section-description">Przejrzysty proces współpracy gwarantujący terminową realizację</p>
+            </div>
+
+            <div class="process-timeline">
+                <div class="process-step">
+                    <div class="process-number">01</div>
+                    <div class="process-content">
+                        <h3>Konsultacja i Wycena</h3>
+                        <p>Spotkanie na działce lub w biurze. Analiza potrzeb, pomiar terenu, przygotowanie wstępnej wyceny.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="process-number">02</div>
+                    <div class="process-content">
+                        <h3>Projekt</h3>
+                        <p>Opracowanie dokumentacji projektowej, uzyskanie niezbędnych pozwoleń i uzgodnień.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="process-number">03</div>
+                    <div class="process-content">
+                        <h3>Przygotowanie Terenu</h3>
+                        <p>Prace ziemne, fundamenty, przyłącza mediów. Przygotowanie placu budowy.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="process-number">04</div>
+                    <div class="process-content">
+                        <h3>Montaż Konstrukcji</h3>
+                        <p>Montaż konstrukcji stalowej, pokrycie dachu, ścian. Instalacja bram i okien.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="process-number">05</div>
+                    <div class="process-content">
+                        <h3>Wykończenie</h3>
+                        <p>Instalacje elektryczne, wodno-kanalizacyjne, ogrzewanie. Posadzki, wykończenia.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="process-number">06</div>
+                    <div class="process-content">
+                        <h3>Odbiór</h3>
+                        <p>Przegląd techniczny, odbiór końcowy, przekazanie dokumentacji powykonawczej i kluczy.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sekcja Portfolio -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Nasze Prace</span>
+                <h2 class="section-title">Zrealizowane Projekty</h2>
+                <p class="section-description">Wybrane realizacje hal magazynowych i produkcyjnych</p>
+            </div>
+
+            <div class="portfolio-grid">
+                <!-- Projekt 1 -->
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="portfolio-01.jpg" 
+                             alt="Centrum logistyczne - konstrukcja stalowa">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-category">Centrum Logistyczne</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Centrum Logistyczne</h3>
+                        <p class="portfolio-description">Kompleksowa realizacja centrum logistycznego. Pełny montaż konstrukcji stalowej z zastosowaniem nowoczesnych technologii budowlanych.</p>
+                        <div class="portfolio-details">
+                            <span class="portfolio-detail"><strong>Zakres:</strong> Montaż konstrukcji stalowej</span>
+                            <span class="portfolio-detail"><strong>Typ:</strong> Hala magazynowa z dokami</span>
+                            <span class="portfolio-detail"><strong>Realizacja:</strong> Terminowo zgodnie z planem</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projekt 2 -->
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="portfolio-02.jpg" 
+                             alt="Hala produkcyjna - wykończenie">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-category">Hala Produkcyjna</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Hala Produkcyjna - 1500m²</h3>
+                        <p class="portfolio-description">Budowa i wykończenie hali produkcyjnej. Montaż konstrukcji stalowej, kompletne wykończenie z instalacjami oraz posadzką przemysłową.</p>
+                        <div class="portfolio-details">
+                            <span class="portfolio-detail"><strong>Powierzchnia:</strong> 1500m²</span>
+                            <span class="portfolio-detail"><strong>Zakres:</strong> Montaż + Wykończenie</span>
+                            <span class="portfolio-detail"><strong>Typ:</strong> Hala produkcyjna</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sekcja Kontakt -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Skontaktuj się</span>
+                <h2 class="section-title">Porozmawiajmy o Twoim Projekcie</h2>
+                <p class="section-description">Zapraszam do kontaktu. Odpowiem na wszystkie pytania i przygotowuję bezpłatną wycenę dla Twojej inwestycji.</p>
+            </div>
+
+            <div class="contact-info-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path d="M8 12C8 10.8954 8.89543 10 10 10H16.3557C16.9313 10 17.4422 10.3687 17.6412 10.9134L19.5927 16.2984C19.8303 16.9445 19.5532 17.6681 18.9499 18.0171L15.6145 19.9848C17.1057 23.3598 19.6402 25.8943 23.0152 27.3855L24.9829 24.0501C25.3319 23.4468 26.0555 23.1697 26.7016 23.4073L32.0866 25.3588C32.6313 25.5578 33 26.0687 33 26.6443V33C33 34.1046 32.1046 35 31 35H29C17.4020 35 8 25.5980 8 14V12Z" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Telefon</h3>
+                    <a href="tel:+48123456789" class="contact-link">+48 123 456 789</a>
+                    <p class="contact-note">Pon-Pt 8:00-18:00, Sob 9:00-14:00</p>
+                </div>
+
+                <div class="contact-card featured-contact">
+                    <div class="contact-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path d="M8 14L21.78 23.52C22.9333 24.3467 24.5667 24.3467 25.72 23.52L39.5 14M10.5 35H37.5C38.8807 35 40 33.8807 40 32.5V15.5C40 14.1193 38.8807 13 37.5 13H10.5C9.11929 13 8 14.1193 8 15.5V32.5C8 33.8807 9.11929 35 10.5 35Z" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Email</h3>
+                    <a href="mailto:rafal.flisiak@example.com" class="contact-link">rafal.flisiak@example.com</a>
+                    <p class="contact-note">Odpowiadam w ciągu 24 godzin</p>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path d="M31.3137 29.6569L26.3431 34.6274C24.5814 36.3891 21.7383 36.3891 19.9766 34.6274L13.3726 28.0234C9.8491 24.4999 9.8491 18.7484 13.3726 15.2249C16.8961 11.7014 22.6476 11.7014 26.1711 15.2249L32.7751 21.8289C34.5368 23.5906 34.5368 26.4337 32.7751 28.1954L31.3137 29.6569Z" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="24" cy="22" r="4" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Obszar działania</h3>
+                    <p class="contact-text">Cała Polska</p>
+                    <p class="contact-note">Dojazd do każdej lokalizacji</p>
+                </div>
+            </div>
+
+            <div class="contact-cta-box">
+                <h3>Rafał Flisiak - Budowa Hal Magazynowych</h3>
+                <p>Specjalizuję się w kompleksowej realizacji hal magazynowych i konstrukcji stalowych. Oferuję pełen zakres usług - od konsultacji i szczegółowej wyceny, przez profesjonalny montaż konstrukcji, po kompleksowe wykończenie obiektu.</p>
+                <div class="contact-actions">
+                    <a href="tel:+48123456789" class="btn btn-primary">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" style="margin-right: 8px;">
+                            <path d="M3 5C3 3.89543 3.89543 3 5 3H8.27924C8.70967 3 9.09181 3.27543 9.22792 3.68377L10.7257 8.17721C10.8831 8.64932 10.6694 9.16531 10.2243 9.38787L7.96701 10.5165C9.06925 12.9612 11.0388 14.9308 13.4835 16.033L14.6121 13.7757C14.8347 13.3306 15.3507 13.1169 15.8228 13.2743L20.3162 14.7721C20.7246 14.9082 21 15.2903 21 15.7208V19C21 20.1046 20.1046 21 19 21H18C9.71573 21 3 14.2843 3 6V5Z" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                        Zadzwoń teraz
+                    </a>
+                    <a href="mailto:rafal.flisiak@example.com" class="btn btn-secondary">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" style="margin-right: 8px;">
+                            <path d="M3 8L10.89 13.26C11.5667 13.72 12.4333 13.72 13.11 13.26L21 8M5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19Z" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                        Wyślij email
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stopka -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <span class="logo-text">RAFAŁ<span class="logo-accent">FLISIAK</span></span>
+                    </div>
+                    <p class="footer-description">Profesjonalna budowa hal magazynowych i konstrukcji stalowych. Kompleksowa realizacja od konsultacji i wyceny po wykończenie pod klucz.</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-title">Usługi</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services">Konsultacja i Wycena</a></li>
+                        <li><a href="#services">Montaż Konstrukcji</a></li>
+                        <li><a href="#services">Wykończenie</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-title">Menu</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about">O mnie</a></li>
+                        <li><a href="#portfolio">Realizacje</a></li>
+                        <li><a href="#contact">Kontakt</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-title">Kontakt</h4>
+                    <ul class="footer-contact">
+                        <li><strong>Rafał Flisiak</strong></li>
+                        <li>Cała Polska</li>
+                        <li><a href="tel:+48123456789">+48 123 456 789</a></li>
+                        <li><a href="mailto:rafal.flisiak@example.com">rafal.flisiak@example.com</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Rafał Flisiak - Budowa Hal Magazynowych. Wszystkie prawa zastrzeżone.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Polityka Prywatności</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Przycisk powrotu do góry -->
+    <button class="scroll-to-top" id="scrollToTop" aria-label="Wróć do góry">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M12 19V5M12 5L5 12M12 5L19 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
