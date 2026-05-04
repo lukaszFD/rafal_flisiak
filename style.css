@@ -70,15 +70,15 @@ ul {
     top: 0;
     left: 0;
     right: 0;
-    background: rgba(26, 26, 26, 0.95);
+    background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
-    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    box-shadow: var(--shadow-sm);
     z-index: 1000;
     transition: var(--transition);
 }
 
 .navbar.scrolled {
-    box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+    box-shadow: var(--shadow-md);
 }
 
 .nav-container {
@@ -93,8 +93,7 @@ ul {
     font-size: 1.5rem;
     font-weight: 800;
     letter-spacing: -0.02em;
-    color: #ffffff;
-    text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+    color: var(--text-dark);
 }
 
 .logo-accent {
@@ -110,7 +109,7 @@ ul {
 .nav-link {
     font-size: 0.95rem;
     font-weight: 500;
-    color: #ffffff;
+    color: var(--text-dark);
     position: relative;
     padding: 0.5rem 0;
 }
@@ -160,7 +159,7 @@ ul {
 .mobile-menu-toggle span {
     width: 25px;
     height: 3px;
-    background: #ffffff;
+    background: var(--text-dark);
     border-radius: 2px;
     transition: var(--transition);
 }
@@ -1155,10 +1154,10 @@ section {
         top: 70px;
         left: 0;
         right: 0;
-        background: rgba(26, 26, 26, 0.98);
+        background: var(--bg-white);
         flex-direction: column;
         padding: 2rem;
-        box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+        box-shadow: var(--shadow-lg);
         transform: translateX(-100%);
         transition: var(--transition);
         gap: 1rem;
